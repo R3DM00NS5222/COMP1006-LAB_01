@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <body class="grid">
-    <header></header>
+    <header><?php include "./inc/header.php"; ?></header>
     <main class="grid-main">
         <div>
-            <h1>Football clubs</h1>
+            <h1>Data on Relatives</h1>
         </div>
-        <h1>Data on Relatives</h1>
-        <table border="1" width="100%">
+        <table class="table table-dark table-striped table-hover">
             <thead>
             <tr>
+                <th>#</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Occupation</th>
@@ -20,7 +20,7 @@
             <?php
 
             //connecting to the db
-            $db = new PDO('mysql:host=172.31.22.43;dbname=dbname=Jerry200489053', 'Jerry200489053', 'EUDgE0u-dU');
+            $db = new PDO("mysql:host=172.31.22.43; dbname=Jerry200489053", 'Jerry200489053', 'EUDgE0u-dU');
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             //fetching the data
@@ -31,13 +31,14 @@
             $cmd->execute();
             $details = $cmd->fetchAll();
 
-            //displaying details in thetable
+            //displaying details in the table
             foreach ($details as $detail){
                 echo '<tr>
+                        <td>'.$detail['relativeId']. '</td>
                         <td>' . $detail['name'] . '</td>
-                        <td>' . $detail['age'] . '</td>
+                        <td>' . $detail['age'] . '</td> 
                         <td>' . $detail['occupation'] . '</td>
-                    </tr>';
+                    </tr> ';
             }
 
             //disconnect code block
@@ -45,10 +46,8 @@
             ?>
             </tbody>
         </table>
-
-
         <!-- the content for the footer will be added using JS -->
     </main>
-    <footer id="footer"></footer>
+    <footer><?php include "./inc/footer.php"; ?></footer>
   </body>
 </html>
