@@ -48,35 +48,35 @@
         </table>
         <!--Found out about Card view and it was too fun to pass up-->
         <div class="card-group">
-            <div class="card">
+            <div class="card text-white border-light bg-dark mb-3">
                 <img src="img/family1.jpeg" class="card-img-top" alt="endo">
                 <div class="card-body">
-                        <h5 class="card-title">3ND0</h5>
+                        <h5 class="card-title"></h5>
                     <p class="card-text">“It didn’t matter how big our house was; it mattered that there was love in it.”
                         </p>
                     <p class="card-text"><small class="text-muted">— Peter Buffett</small></p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card text-white border-light bg-dark mb-3">
                 <img src="img/family2.jpeg" class="card-img-top" alt="endo">
                 <div class="card-body">
-                    <h5 class="card-title">0DA</h5>
+                    <h5 class="card-title"></h5>
                     <p class="card-text"> “Family means nobody gets left behind or forgotten.” </p>
                     <p class="card-text"><small class="text-muted">— David Ogden Stiers</small></p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card text-white border-light bg-dark mb-3">
                 <img src="img/family3.jpeg" class="card-img-top" alt="endo">
                 <div class="card-body">
-                    <h5 class="card-title">R3DM0ON</h5>
+                    <h5 class="card-title"></h5>
                     <p class="card-text"> “A family is a risky venture, because the greater the love, the greater the loss… That’s the trade-off. But I’ll take it all.”</p>
                     <p class="card-text"><small class="text-muted"> — Brad Pitt.</small></p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card text-white border-light bg-dark mb-3">
                 <img src="img/family4.jpeg" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">300</h5>
+                    <h5 class="card-title"></h5>
                     <p class="card-text"> “When everything goes to hell, the people who stand by you without flinching–they are your family.”</p>
                     <p class="card-text"><small class="text-muted"> – Jim Butcher</small></p>
                 </div>

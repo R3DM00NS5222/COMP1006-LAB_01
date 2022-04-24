@@ -1,4 +1,4 @@
-<footer class="text-center text-white" style="background-color: #192436;">
+<footer class="fixed-bottom text-center text-white bg-dark">
     <div class="container-fluid">
         <section class="">
             <p class="d-flex justify-content-center align-items-center">
