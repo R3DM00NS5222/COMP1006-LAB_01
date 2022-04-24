@@ -20,7 +20,7 @@
     <script type="text/javascript" src="./js/custom-js.js" defer></script>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-dark bg-dark" style="background-color: #192436;">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
             <img src="img/logo.jfif" alt="" width="50" height="30" class="d-inline-block align-text-top">

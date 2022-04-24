@@ -1,3 +1,12 @@
-<div>
-  <p>Lab 3 by 200489053</p>
-</div>
+<footer class="text-center text-white" style="background-color: #192436;">
+    <div class="container-fluid">
+        <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+                <span class="me-3">Register for free</span>
+                <button type="button" class="btn btn-outline-light btn-rounded">
+                    Sign up!
+                </button>
+            </p>
+        </section>
+    </div>
+</footer>
